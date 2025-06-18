@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note">
   <info>
-    <title>Felix Grocery Chicago Footnote APA Backend v2</title>
-    <id>http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v2</id>
-    <link href="http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v2" rel="self"/>
+    <title>Felix Grocery Chicago Footnote APA Backend v3</title>
+    <id>http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v3</id>
+    <link href="http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v3" rel="self"/>
+    <self link="true"/>
     <author>
-      <name>ChatGPT Custom</name>
+      <name>Felix Oczkos & ChatGPT</name>
     </author>
     <category citation-format="note"/>
     <category field="generic-base"/>
