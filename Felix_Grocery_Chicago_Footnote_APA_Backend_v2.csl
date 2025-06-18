@@ -5,7 +5,14 @@
     <id>http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v4</id>
     <link href="http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v4" rel="self"/>
     <author>
-      <name>Felix Oczkos & ChatGPT</name>
+      <name>
+        <given>Felix</given>
+        <family>Oczkos</family>
+      </name>
+      <name>
+        <given>ChatGPT</given>
+        <family>Custom</family>
+      </name>
     </author>
     <category citation-format="note"/>
     <category field="generic-base"/>
@@ -80,4 +87,3 @@
     </layout>
   </bibliography>
 </style>
-
