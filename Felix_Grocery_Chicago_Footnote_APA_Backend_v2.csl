@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note">
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0.2" class="note">
   <info>
-    <title>Felix Grocery Chicago Footnote APA Backend v4</title>
-    <id>http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v4</id>
-    <link href="http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v4" rel="self"/>
+    <title>Felix Grocery Chicago Footnote APA Backend Final</title>
+    <id>https://github.com/HiimShocki/mendeley-csl-felix/raw/main/Felix_Grocery_Chicago_Footnote_APA_Backend_Final.csl</id>
+    <link href="https://github.com/HiimShocki/mendeley-csl-felix/raw/main/Felix_Grocery_Chicago_Footnote_APA_Backend_Final.csl" rel="self"/>
     <author>
       <name>
-        <given>Felix</given>
-        <family>Oczkos</family>
+        <name-part name="given">Felix</name-part>
+        <name-part name="family">Oczkos</name-part>
       </name>
       <name>
-        <given>ChatGPT</given>
-        <family>Custom</family>
+        <name-part name="given">ChatGPT</name-part>
+        <name-part name="family">Custom</name-part>
       </name>
     </author>
     <category citation-format="note"/>
     <category field="generic-base"/>
     <updated>2025-06-18</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
-    <independent-parent>http://www.zotero.org/styles/chicago-note-bibliography</independent-parent>
   </info>
 
   <macro name="author-footnote">
@@ -26,14 +25,14 @@
       <name name-as-sort-order="all" delimiter="/" initialize-with=".">
         <name-form form="long"/>
       </name>
-      <et-al term="et al." prefix=" "/>
+      <et-al/> 
     </names>
   </macro>
 
   <macro name="author-short">
-    <names variable="author">
-      <name name-as-sort-order="all" delimiter="/" initialize-with="." et-al-min="4" et-al-use-first="1"/>
-      <et-al term="et al." prefix=" "/>
+    <names variable="author" et-al-min="4" et-al-use-first="1">
+      <name name-as-sort-order="all" delimiter="/" initialize-with="."/>
+      <et-al/>
     </names>
   </macro>
 
@@ -55,9 +54,9 @@
   <citation>
     <layout delimiter=", ">
       <text value="Cf. "/>
-      <names variable="author">
-        <name name-as-sort-order="all" delimiter="/" initialize-with="." et-al-min="4" et-al-use-first="1"/>
-        <et-al term="et al." prefix=" "/>
+      <names variable="author" et-al-min="4" et-al-use-first="1">
+        <name name-as-sort-order="all" delimiter="/" initialize-with="."/>
+        <et-al/>
       </names>
       <text value=" ("/>
       <text macro="year"/>
