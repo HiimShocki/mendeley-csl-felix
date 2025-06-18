@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note">
   <info>
-    <title>Felix Grocery Chicago Footnote APA Backend v3</title>
-    <id>http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v3</id>
-    <link href="http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v3" rel="self"/>
-    <self link="true"/>
+    <title>Felix Grocery Chicago Footnote APA Backend v4</title>
+    <id>http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v4</id>
+    <link href="http://www.zotero.org/styles/felix-grocery-chicago-footnote-apa-v4" rel="self"/>
     <author>
       <name>Felix Oczkos & ChatGPT</name>
     </author>
@@ -81,3 +80,4 @@
     </layout>
   </bibliography>
 </style>
+
